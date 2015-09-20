@@ -41,7 +41,10 @@ shinyUI(
                     <li>Elevator: Does the building have an elevator (0 = no, 1 = yes)</li>
                     <li>Condition: Condition of the apartment (0 = bad, 1 = fair, 2 = excellent)</li>
                  </ul>"
-            )
+            ),
+            br(),
+            div("The ui.R and server.R files are available on github:"),
+            a("https://github.com/mpekari/ApartmentPricePredictor")
         )
     )
 )

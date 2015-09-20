@@ -6,6 +6,7 @@
 library(shiny)
 library(kernlab)
 
+# Load the predictive model from a file
 model <- load("apartment_prices_model_svm.rda")
 
 shinyServer(
